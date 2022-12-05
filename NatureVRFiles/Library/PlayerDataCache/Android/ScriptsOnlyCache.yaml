@@ -1,9 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - NatureVRScentController
+    - SerialController
     Unity.InteractiveTutorials.Core.dll:
     - Unity.InteractiveTutorials.AnalyticsHelper
     - Unity.InteractiveTutorials.TutorialContainer
-    - Unity.InteractiveTutorials.TutorialModalWindow
     - Unity.InteractiveTutorials.TutorialProjectSettings
     - Unity.InteractiveTutorials.TutorialStyles
     - Unity.InteractiveTutorials.TutorialWelcomePage
@@ -15,15 +17,9 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
-    Unity.XR.Oculus.Editor.dll:
-    - Unity.XR.Oculus.Editor.OculusSettingsEditor
     Unity.XR.Oculus.dll:
     - Unity.XR.Oculus.OculusLoader
     - Unity.XR.Oculus.OculusSettings
-    Unity.XR.WindowsMixedReality.Editor.dll:
-    - UnityEditor.XR.WindowsMR.WindowsMRPackageSettings
-    Unity.XR.WindowsMixedReality.dll:
-    - UnityEngine.XR.WindowsMR.WindowsMRSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -52,8 +48,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
@@ -67,26 +61,44 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 5786}
+      Script: {instanceID: 1508}
     - Class: 114
-      Script: {instanceID: 5872}
+      Script: {instanceID: 1624}
     - Class: 114
-      Script: {instanceID: 6756}
+      Script: {instanceID: 1712}
     - Class: 114
-      Script: {instanceID: 7828}
+      Script: {instanceID: 2228}
+    - Class: 114
+      Script: {instanceID: 2640}
+    - Class: 114
+      Script: {instanceID: 4194}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
+      Script: {instanceID: 0}
+    - Class: 154
+      Script: {instanceID: 0}
+    - Class: 156
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 218
+      Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
     - Class: 850595691
       Script: {instanceID: 0}
+    - Class: 1953259897
+      Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: d251bf88db6c95a6b1aa0b69298da9ef
+    assemblyName: UnityEngine.SpatialTracking.dll
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
   - hash:
       serializedVersion: 2
       Hash: 24c74cc0d527a06113f2b967042769f0
@@ -161,6 +173,12 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
+      Hash: 8135ff3a08df996d9deb4bcec64ae5a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SampleCustomDelimiter
+  - hash:
+      serializedVersion: 2
       Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -173,6 +191,12 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
+      Hash: 0224ad140a2a2d759e9e1fb5e1138fc4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SampleUserPolling_ReadWrite
+  - hash:
+      serializedVersion: 2
       Hash: 300fd99066f8c288e85f5e81ce65fe34
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -183,6 +207,24 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InteractiveTutorials.Core.Scripts.dll
     namespaceName: 
     className: SceneObjectGUIDComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 0224ad140a2a2d759e9e1fb5e1138fc4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SampleTearDown
+  - hash:
+      serializedVersion: 2
+      Hash: 0224ad140a2a2d759e9e1fb5e1138fc4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SampleUserPolling_JustRead
+  - hash:
+      serializedVersion: 2
+      Hash: 323c36071b74d305f22666b2a103f3f0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NatureVRScentController
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -219,6 +261,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SampleMessageListener
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -395,12 +443,6 @@ ScriptsOnlyBuild:
     className: OculusLoader
   - hash:
       serializedVersion: 2
-      Hash: d251bf88db6c95a6b1aa0b69298da9ef
-    assemblyName: UnityEngine.SpatialTracking.dll
-    namespaceName: UnityEngine.SpatialTracking
-    className: TrackedPoseDriver
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -491,6 +533,12 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 89fd5782e32b6281fd9680242dfa4963
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SerialController
+  - hash:
+      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -567,6 +615,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7965399adfb11545fdac43940fd20ca3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SerialControllerCustomDelimiter
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
