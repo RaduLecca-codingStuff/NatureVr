@@ -15,12 +15,12 @@ C:/Users/ldryo/Documents/GitHub/NatureVr/NatureVRFiles
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50069
+65305
 Successfully changed project path to: C:/Users/ldryo/Documents/GitHub/NatureVr/NatureVRFiles
 C:/Users/ldryo/Documents/GitHub/NatureVr/NatureVRFiles
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 723.14 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 2.82 ms.
+Refreshing native plugins compatible for Editor in 63.43 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 2.61 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/ldryo/Documents/GitHub/NatureVr/NatureVRFiles/Assets
@@ -35,49 +35,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003320 seconds.
+Registered in 0.002020 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 80.23 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.23 ms.
+Refreshing native plugins compatible for Editor in 44.05 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  8.930 seconds
+- Completed reload, in  2.119 seconds
 Domain Reload Profiling:
-	ReloadAssembly (8931ms)
-		BeginReloadAssembly (191ms)
+	ReloadAssembly (2119ms)
+		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1249ms)
-			LoadAssemblies (187ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (411ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
+			SetupTypeCache (132ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (541ms)
-			SetupLoadedEditorAssemblies (291ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (166ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (81ms)
-				BeforeProcessingInitializeOnLoad (23ms)
-				ProcessInitializeOnLoadAttributes (127ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011667 seconds.
+Registered in 0.007813 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.42 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.38 ms.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -98,45 +98,45 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  4.516 seconds
+- Completed reload, in  0.997 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4517ms)
-		BeginReloadAssembly (245ms)
+	ReloadAssembly (998ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (4099ms)
-			LoadAssemblies (154ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (797ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (632ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (3022ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (343ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (712ms)
-				ProcessInitializeOnLoadAttributes (2264ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 7.12 seconds
-Refreshing native plugins compatible for Editor in 2.17 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.40 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
 Unloading 1875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.5 MB.
-System memory in use after: 92.6 MB.
+System memory in use before: 92.3 MB.
+System memory in use after: 92.4 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2322.
-Total: 194.632100 ms (FindLiveObjects: 0.378300 ms CreateObjectMapping: 0.837900 ms MarkObjects: 193.261400 ms  DeleteObjects: 0.152300 ms)
+Total: 3.043200 ms (FindLiveObjects: 0.169700 ms CreateObjectMapping: 0.050100 ms MarkObjects: 2.724300 ms  DeleteObjects: 0.098200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -150,281 +150,273 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Materials/New Material.mat
-  artifactKey: Guid(283cc535a62548540a4bb8ef24a23f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material.mat using Guid(283cc535a62548540a4bb8ef24a23f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d2332b0bb3edfe0ba3c5fe8bd4cbfc') in 1.458573 seconds 
-  Import took 1.464817 seconds .
+  path: Assets/Models/cedartree2.fbx
+  artifactKey: Guid(3c5221aff8c2c35419b2e8d38b28ecbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/cedartree2.fbx using Guid(3c5221aff8c2c35419b2e8d38b28ecbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623572c00a61d1e67e98b767e55c735a') in 0.169112 seconds 
+  Import took 0.172748 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1851.962921 seconds.
-  path: Assets/Textures
-  artifactKey: Guid(076cff516ee0a464ab7f10fa08b0966d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures using Guid(076cff516ee0a464ab7f10fa08b0966d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd330fb97b9050757180312b3220c08d7') in 0.005893 seconds 
-  Import took 0.008752 seconds .
+  Time since last request: 81.880055 seconds.
+  path: Assets/Textures/ForestFloor1/TexturesCom_Ground_ForestLeaves2_2.5x2.5_1K_albedo.tif
+  artifactKey: Guid(6be1a2d7c97785d4faec1e0ec855e8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForestFloor1/TexturesCom_Ground_ForestLeaves2_2.5x2.5_1K_albedo.tif using Guid(6be1a2d7c97785d4faec1e0ec855e8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d6095a91d5df0c1888be8720d22cae') in 0.073409 seconds 
+  Import took 0.078003 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.370690 seconds.
-  path: Assets/Textures/TexturesCom_Branches0012_1_masked_S.png
-  artifactKey: Guid(ab485bf9798809e4a9150d37ce5fb327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/TexturesCom_Branches0012_1_masked_S.png using Guid(ab485bf9798809e4a9150d37ce5fb327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b3072fbece0c71eb1ce1c7161e0a82') in 0.059204 seconds 
-  Import took 0.061995 seconds .
+  Time since last request: 0.000342 seconds.
+  path: Assets/Textures/ForestFloor1/TexturesCom_Ground_ForestLeaves2_2.5x2.5_1K_ao.tif
+  artifactKey: Guid(83992ca748d23334a91252e8401bb2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForestFloor1/TexturesCom_Ground_ForestLeaves2_2.5x2.5_1K_ao.tif using Guid(83992ca748d23334a91252e8401bb2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0edf73435556748dc9e089bd1dcdaa2') in 0.040684 seconds 
+  Import took 0.044349 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.005328 seconds.
-  path: Assets/Textures/TexturesCom_Branches0012_1_masked_S.png
-  artifactKey: Guid(ab485bf9798809e4a9150d37ce5fb327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/TexturesCom_Branches0012_1_masked_S.png using Guid(ab485bf9798809e4a9150d37ce5fb327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd975d8d2b50465ca938ba2140e031186') in 0.018890 seconds 
-  Import took 0.021718 seconds .
+  Time since last request: 0.000316 seconds.
+  path: Assets/Textures/ForestFloor1/TexturesCom_Ground_ForestLeaves2_2.5x2.5_1K_normal.tif
+  artifactKey: Guid(c4f6a25eac7e40c4dbea736adfe3b4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForestFloor1/TexturesCom_Ground_ForestLeaves2_2.5x2.5_1K_normal.tif using Guid(c4f6a25eac7e40c4dbea736adfe3b4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289b696f56c3086e1b247fa2f8d07e94') in 0.043220 seconds 
+  Import took 0.046992 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.342297 seconds.
-  path: Assets/Textures/TexturesCom_Branches0013_1_masked_S 1.png
-  artifactKey: Guid(6251841835566a040885266d22dd1d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/TexturesCom_Branches0013_1_masked_S 1.png using Guid(6251841835566a040885266d22dd1d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ccb64205c87b9064911b0230b29157') in 0.027439 seconds 
-  Import took 0.030185 seconds .
+  Time since last request: 0.000307 seconds.
+  path: Assets/Textures/ForestFloor1/TexturesCom_Ground_ForestLeaves2_2.5x2.5_1K_height 1.tif
+  artifactKey: Guid(2d60615abce29d543847a4e3ac4eab68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForestFloor1/TexturesCom_Ground_ForestLeaves2_2.5x2.5_1K_height 1.tif using Guid(2d60615abce29d543847a4e3ac4eab68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cabb31d29afac9644256e0e3e1b7c26') in 0.040208 seconds 
+  Import took 0.044177 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Textures/TexturesCom_Branches0013_1_masked_S.png
-  artifactKey: Guid(0b7bf4bda8b87f8429702788c66e62b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/TexturesCom_Branches0013_1_masked_S.png using Guid(0b7bf4bda8b87f8429702788c66e62b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a5ef397dc0f58a6ba83f672c0d09f5') in 0.024135 seconds 
-  Import took 0.026690 seconds .
+  Time since last request: 0.000320 seconds.
+  path: Assets/Textures/ForestFloor1/TexturesCom_Ground_ForestLeaves2_2.5x2.5_1K_roughness.tif
+  artifactKey: Guid(20fc99e82ee531242bd922f28b57a5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForestFloor1/TexturesCom_Ground_ForestLeaves2_2.5x2.5_1K_roughness.tif using Guid(20fc99e82ee531242bd922f28b57a5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8641d82f506c61264b669197345297') in 0.043211 seconds 
+  Import took 0.046866 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Textures/TexturesCom_Branches0014_1_masked_S.png
-  artifactKey: Guid(4b5a34e9ce860f04785a74e36cc61e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/TexturesCom_Branches0014_1_masked_S.png using Guid(4b5a34e9ce860f04785a74e36cc61e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8eba84fa7a528ef498c10ba743b8d2') in 0.027678 seconds 
-  Import took 0.030184 seconds .
+  Time since last request: 4.041758 seconds.
+  path: Assets/Ardity/Prefabs/SerialController.prefab
+  artifactKey: Guid(a65acf0cbf56b80419f74ebf0bc845f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ardity/Prefabs/SerialController.prefab using Guid(a65acf0cbf56b80419f74ebf0bc845f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57b6401d48f6c624f4d1f345310ebd8') in 0.019240 seconds 
+  Import took 0.023625 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Textures/TexturesCom_Branches0014_2_masked_S.jpg
-  artifactKey: Guid(a8bf49ba524589747af799ab9173478b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/TexturesCom_Branches0014_2_masked_S.jpg using Guid(a8bf49ba524589747af799ab9173478b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb377a1cb29da35d64e581b9165b62f0') in 0.033781 seconds 
-  Import took 0.036898 seconds .
+  Time since last request: 0.000316 seconds.
+  path: Assets/Ardity/Prefabs/SerialController_BinaryDelimited.prefab
+  artifactKey: Guid(e246aa68d79c3e6489397d781fa90434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ardity/Prefabs/SerialController_BinaryDelimited.prefab using Guid(e246aa68d79c3e6489397d781fa90434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34871c2d31295b54c66375f0cdd6ad3') in 0.012269 seconds 
+  Import took 0.015964 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.825161 seconds.
-  path: Assets/Textures/TexturesCom_Branches0014_1_masked_S.png
-  artifactKey: Guid(4b5a34e9ce860f04785a74e36cc61e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/TexturesCom_Branches0014_1_masked_S.png using Guid(4b5a34e9ce860f04785a74e36cc61e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa00b8d47ea17eaa772aa78ca9eeb0b') in 0.022479 seconds 
-  Import took 0.025323 seconds .
+  Time since last request: 17.387675 seconds.
+  path: Assets/Textures/Bark1/TexturesCom_Wood_BarkBeech2_1.8x1.8_1K_albedo.tif
+  artifactKey: Guid(5ba778f72ed25614eaac3fc60a4d7b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bark1/TexturesCom_Wood_BarkBeech2_1.8x1.8_1K_albedo.tif using Guid(5ba778f72ed25614eaac3fc60a4d7b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f28f7d7b2af48612058aa12cb9022c') in 0.046120 seconds 
+  Import took 0.050707 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.250239 seconds.
-  path: Assets/Textures/TexturesCom_Branches0013_1_masked_S 1.png
-  artifactKey: Guid(6251841835566a040885266d22dd1d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/TexturesCom_Branches0013_1_masked_S 1.png using Guid(6251841835566a040885266d22dd1d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b082a33749d698e5ae82fc41a7fce6f') in 0.026441 seconds 
-  Import took 0.029409 seconds .
+  Time since last request: 0.000319 seconds.
+  path: Assets/Textures/Bark1/TexturesCom_Wood_BarkBeech2_1.8x1.8_1K_roughness.tif
+  artifactKey: Guid(f67dedbff939f3747bc82ecb031b7cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bark1/TexturesCom_Wood_BarkBeech2_1.8x1.8_1K_roughness.tif using Guid(f67dedbff939f3747bc82ecb031b7cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a954f4c14488b65b23abc1a93c3fce6') in 0.036477 seconds 
+  Import took 0.040329 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 909.287133 seconds.
-  path: Assets/Models
-  artifactKey: Guid(71e61034091a80048b2647d987cfd35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(71e61034091a80048b2647d987cfd35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0722ddbca8ff9e532eff78ca118351') in 0.005943 seconds 
-  Import took 0.008878 seconds .
+  Time since last request: 0.000320 seconds.
+  path: Assets/Textures/Bark1/TexturesCom_Wood_BarkBeech2_1.8x1.8_1K_normal.tif
+  artifactKey: Guid(013e9a24fab712b4d8042106dfb6f724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bark1/TexturesCom_Wood_BarkBeech2_1.8x1.8_1K_normal.tif using Guid(013e9a24fab712b4d8042106dfb6f724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cfed318c16440d60937c10041d2c1f') in 0.041400 seconds 
+  Import took 0.045057 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.032710 seconds.
-  path: Assets/Models/cedartree.fbx
-  artifactKey: Guid(fad84ea90399cf445afd4b5d573edbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/cedartree.fbx using Guid(fad84ea90399cf445afd4b5d573edbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f077d37a89f4681c5ef7730794f88a5') in 0.063367 seconds 
-  Import took 0.066085 seconds .
+  Time since last request: 0.000463 seconds.
+  path: Assets/Textures/Bark1/TexturesCom_Wood_BarkBeech2_1.8x1.8_1K_ao.tif
+  artifactKey: Guid(1a83f622f9ff05542851cdb115a0276c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bark1/TexturesCom_Wood_BarkBeech2_1.8x1.8_1K_ao.tif using Guid(1a83f622f9ff05542851cdb115a0276c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b2581caf8a67ae47863bde76aa549d') in 0.039509 seconds 
+  Import took 0.043667 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 80.629962 seconds.
-  path: Assets/Models/cedartree.fbx
-  artifactKey: Guid(fad84ea90399cf445afd4b5d573edbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/cedartree.fbx using Guid(fad84ea90399cf445afd4b5d573edbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce61f124fd1b39bacd0e8758956f7da1') in 0.027290 seconds 
-  Import took 0.030342 seconds .
+  Time since last request: 0.000649 seconds.
+  path: Assets/Textures/Bark1/TexturesCom_Wood_BarkBeech2_1.8x1.8_1K_height.tif
+  artifactKey: Guid(80b5a7cef18b99f4c96475a777414a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bark1/TexturesCom_Wood_BarkBeech2_1.8x1.8_1K_height.tif using Guid(80b5a7cef18b99f4c96475a777414a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1ea7ac69f64681cbc21815e2aeabc3') in 0.040005 seconds 
+  Import took 0.044153 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.375257 seconds.
-  path: Assets/Materials/TexturesCom_Branches0012_1_masked_S.mat
+  Time since last request: 0.397650 seconds.
+  path: Assets/Textures/ForestFloor2/TexturesCom_Ground_Forest4_2x2_1K_albedo.tif
+  artifactKey: Guid(179e538f3fd74d146a8c65059ca2affa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForestFloor2/TexturesCom_Ground_Forest4_2x2_1K_albedo.tif using Guid(179e538f3fd74d146a8c65059ca2affa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744c61a9678a29752d007d88d90db60a') in 0.029034 seconds 
+  Import took 0.033497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Textures/ForestFloor2/TexturesCom_Ground_Forest4_2x2_1K_ao.tif
+  artifactKey: Guid(813dbfd9324cb9a45ad1e289e2b2acc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForestFloor2/TexturesCom_Ground_Forest4_2x2_1K_ao.tif using Guid(813dbfd9324cb9a45ad1e289e2b2acc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd8e3c8bf8276ecd493cba4f79dd8cd') in 0.047424 seconds 
+  Import took 0.051223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Textures/ForestFloor2/TexturesCom_Ground_Forest4_2x2_1K_roughness.tif
+  artifactKey: Guid(0c30e2dbc5c6cd741b823a2a66c328e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForestFloor2/TexturesCom_Ground_Forest4_2x2_1K_roughness.tif using Guid(0c30e2dbc5c6cd741b823a2a66c328e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c0cb41ef4be9a27a2d8a0db8347ac6') in 0.040045 seconds 
+  Import took 0.043819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Textures/ForestFloor2/TexturesCom_Ground_Forest4_2x2_1K_height.tif
+  artifactKey: Guid(e4f7adae938f00a40898bb2b08e35631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForestFloor2/TexturesCom_Ground_Forest4_2x2_1K_height.tif using Guid(e4f7adae938f00a40898bb2b08e35631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cef1676b506d0e212d107a1aa469c30') in 0.039726 seconds 
+  Import took 0.044288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/Textures/ForestFloor2/TexturesCom_Ground_Forest4_2x2_1K_normal.tif
+  artifactKey: Guid(ade4bf26aa9225844a2d32e04a33a962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForestFloor2/TexturesCom_Ground_Forest4_2x2_1K_normal.tif using Guid(ade4bf26aa9225844a2d32e04a33a962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac51511f22ebb578376eb242844618f') in 0.033158 seconds 
+  Import took 0.036905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.522481 seconds.
+  path: Assets/Textures/CedartreeTextures/Materials
+  artifactKey: Guid(21d8d827dde21a74d884df6eaa0fedb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/CedartreeTextures/Materials using Guid(21d8d827dde21a74d884df6eaa0fedb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971116fcb2f67d0cededbf7fbd2f217a') in 0.020623 seconds 
+  Import took 0.024850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.177176 seconds.
+  path: Assets/Textures/CedartreeTextures/Materials/TexturesCom_Branches0013_1_masked_S 1.mat
+  artifactKey: Guid(09131aa46bfb1ef41934d6352963ada7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/CedartreeTextures/Materials/TexturesCom_Branches0013_1_masked_S 1.mat using Guid(09131aa46bfb1ef41934d6352963ada7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf3f4007057f06a3c7fe42de633eca2') in 0.072938 seconds 
+  Import took 0.077666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.162916 seconds.
+  path: Assets/Materials/CedarLeaves1.mat
   artifactKey: Guid(dff78b172c9215e4dbeadd2de8d1b3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TexturesCom_Branches0012_1_masked_S.mat using Guid(dff78b172c9215e4dbeadd2de8d1b3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fd127df0380dabf23ceb7960c3ac6c') in 0.019706 seconds 
-  Import took 0.022660 seconds .
+Start importing Assets/Materials/CedarLeaves1.mat using Guid(dff78b172c9215e4dbeadd2de8d1b3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1346212a099ef104753294a1b271976e') in 0.025476 seconds 
+  Import took 0.030778 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Materials/TexturesCom_Branches0014_1_masked_S.mat
-  artifactKey: Guid(b5ac04b2f34a54a42b7a189bfceb5ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TexturesCom_Branches0014_1_masked_S.mat using Guid(b5ac04b2f34a54a42b7a189bfceb5ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcd9502b3feae9fe32b2ae7ef848a03') in 0.031290 seconds 
-  Import took 0.033880 seconds .
+  Time since last request: 13.072901 seconds.
+  path: Assets/Materials/CedarLeaves2.mat
+  artifactKey: Guid(09131aa46bfb1ef41934d6352963ada7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CedarLeaves2.mat using Guid(09131aa46bfb1ef41934d6352963ada7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7500016702532b11218327dc808846') in 0.034431 seconds 
+  Import took 0.039011 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002100 seconds.
-  path: Assets/Materials/TexturesCom_Branches0014_1_masked_S.mat
-  artifactKey: Guid(b5ac04b2f34a54a42b7a189bfceb5ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TexturesCom_Branches0014_1_masked_S.mat using Guid(b5ac04b2f34a54a42b7a189bfceb5ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcd9502b3feae9fe32b2ae7ef848a03') in 0.026794 seconds 
-  Import took 0.029991 seconds .
+  Time since last request: 220.840203 seconds.
+  path: Assets/Models/cedartree2.fbx
+  artifactKey: Guid(3c5221aff8c2c35419b2e8d38b28ecbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/cedartree2.fbx using Guid(3c5221aff8c2c35419b2e8d38b28ecbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22e17a4f02db8488103fc12443eba92') in 0.039675 seconds 
+  Import took 0.044492 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 52.979980 seconds.
-  path: Assets/ExampleAssets/Models/XRControllerLeft.fbx
-  artifactKey: Guid(e48d18018a0ba46c283d9fd9c227e578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/XRControllerLeft.fbx using Guid(e48d18018a0ba46c283d9fd9c227e578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb061f45b9f658739cc349c9f53cbf2') in 2.217802 seconds 
-  Import took 2.224285 seconds .
+  Time since last request: 379.463660 seconds.
+  path: Assets/Materials/CedarLeaf3.mat
+  artifactKey: Guid(6532c9a5b9cb48245bddc4d27b413e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CedarLeaf3.mat using Guid(6532c9a5b9cb48245bddc4d27b413e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c68fbd948ba013e656d8e9766b962bc') in 0.019895 seconds 
+  Import took 0.025111 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002599 seconds.
-  path: Assets/ExampleAssets/Models/XRControllerRight.fbx
-  artifactKey: Guid(2d10b9b89f2474de9800b152c3d00004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/XRControllerRight.fbx using Guid(2d10b9b89f2474de9800b152c3d00004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab6f0bd2c1b9a3f610fc686fc2ff185') in 2.140470 seconds 
-  Import took 2.157159 seconds .
+  Time since last request: 13.173915 seconds.
+  path: Assets/Materials/CedarLeaves3.mat
+  artifactKey: Guid(6532c9a5b9cb48245bddc4d27b413e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CedarLeaves3.mat using Guid(6532c9a5b9cb48245bddc4d27b413e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64aabfe3b20b301de41a6262eeec532') in 0.017171 seconds 
+  Import took 0.022029 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 868.207984 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(3f6f8f3d1a17a12428a71e9b0416d4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(3f6f8f3d1a17a12428a71e9b0416d4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c758e949c02b8e9d19e4cfa62c9ded41') in 0.006027 seconds 
-  Import took 0.009227 seconds .
+  Time since last request: 4.153857 seconds.
+  path: Assets/Textures/ForestFloor1
+  artifactKey: Guid(b25e22d4696aec744867df0037295776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForestFloor1 using Guid(b25e22d4696aec744867df0037295776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe2e398fa2cf6f911180c4b9dea1125') in 0.008725 seconds 
+  Import took 0.013325 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.943348 seconds.
-  path: Assets/Materials/cedartreeTest.fbx
-  artifactKey: Guid(51f232cb12d889f479758e319e346515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/cedartreeTest.fbx using Guid(51f232cb12d889f479758e319e346515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95936fa683fef7b900f5ee99ed8ab8a') in 0.033070 seconds 
-  Import took 0.036087 seconds .
+  Time since last request: 0.000834 seconds.
+  path: Assets/Textures/ForestFloor1
+  artifactKey: Guid(b25e22d4696aec744867df0037295776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForestFloor1 using Guid(b25e22d4696aec744867df0037295776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe2e398fa2cf6f911180c4b9dea1125') in 0.003897 seconds 
+  Import took 0.008181 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3073.686795 seconds.
-  path: Assets/Models/cedartreetest2.fbx
-  artifactKey: Guid(85d35cb6801e5964398d5ee05a4c39de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/cedartreetest2.fbx using Guid(85d35cb6801e5964398d5ee05a4c39de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea38b8ea67572ccec00edc43f946dc7') in 0.047124 seconds 
-  Import took 0.050291 seconds .
+  Time since last request: 1.160332 seconds.
+  path: Assets/Textures/ForestFloor2
+  artifactKey: Guid(f9424f9a42c1194459226078b3f16c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ForestFloor2 using Guid(f9424f9a42c1194459226078b3f16c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7643493b939bc4dc732b5e1fe4a6c543') in 0.019221 seconds 
+  Import took 0.023926 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 226.093101 seconds.
-  path: Assets/Materials/CedarTreeBark.mat
-  artifactKey: Guid(8928940e3a426114692971061ed8586a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/CedarTreeBark.mat using Guid(8928940e3a426114692971061ed8586a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5cb1a3219d1a51339cc8d8dbdd6118') in 0.016134 seconds 
-  Import took 0.019112 seconds .
+  Time since last request: 0.467250 seconds.
+  path: Assets/Textures/leaves1
+  artifactKey: Guid(6d83aa428f77f5d429503fbb3fdadfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/leaves1 using Guid(6d83aa428f77f5d429503fbb3fdadfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36936c1fc53355e2f6a7ab01eec185a') in 0.009518 seconds 
+  Import took 0.014269 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.809136 seconds.
-  path: Assets/Textures/CedartreeTextures
-  artifactKey: Guid(8f55704b96bef4c4db98b63376806a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/CedartreeTextures using Guid(8f55704b96bef4c4db98b63376806a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad66fc0db546337df6ed031a198f23e') in 0.005521 seconds 
-  Import took 0.008473 seconds .
+  Time since last request: 0.000408 seconds.
+  path: Assets/Textures/leaves1
+  artifactKey: Guid(6d83aa428f77f5d429503fbb3fdadfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/leaves1 using Guid(6d83aa428f77f5d429503fbb3fdadfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36936c1fc53355e2f6a7ab01eec185a') in 0.003519 seconds 
+  Import took 0.007711 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.082536 seconds.
-  path: Assets/Textures/CedartreeTextures/TexturesCom_Wood_BarkCedar_0.5x1_1K_albedo.tif
-  artifactKey: Guid(815cb27f834c56b49850237aa5f3a787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/CedartreeTextures/TexturesCom_Wood_BarkCedar_0.5x1_1K_albedo.tif using Guid(815cb27f834c56b49850237aa5f3a787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c2fab9af95b0a9f80158bf55c2a846') in 0.025289 seconds 
-  Import took 0.028242 seconds .
+  Time since last request: 199.231285 seconds.
+  path: Assets/Models/cedartree3.fbx
+  artifactKey: Guid(15bd346c61020e5469367af73f290044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/cedartree3.fbx using Guid(15bd346c61020e5469367af73f290044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42652d54816b6bffdc90c85787252ea') in 0.061776 seconds 
+  Import took 0.066876 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Textures/CedartreeTextures/TexturesCom_Wood_BarkCedar_0.5x1_1K_ao.tif
-  artifactKey: Guid(3356f799031769f4091210ab5a971aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/CedartreeTextures/TexturesCom_Wood_BarkCedar_0.5x1_1K_ao.tif using Guid(3356f799031769f4091210ab5a971aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cca8cc32b1469dcbbdc54018a8a5d7') in 0.017994 seconds 
-  Import took 0.020645 seconds .
+  Time since last request: 51.975832 seconds.
+  path: Assets/Models/cedartree3.fbx
+  artifactKey: Guid(15bd346c61020e5469367af73f290044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/cedartree3.fbx using Guid(15bd346c61020e5469367af73f290044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43d68e31507b86bdd33c21612eb6dcd') in 0.048982 seconds 
+  Import took 0.054122 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 230.091953 seconds.
-  path: Assets/Textures/CedartreeTextures/TexturesCom_Wood_BarkCedar_0.5x1_1K_height.tif
-  artifactKey: Guid(e8671fec1cc296e4ba293c7f0777f111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/CedartreeTextures/TexturesCom_Wood_BarkCedar_0.5x1_1K_height.tif using Guid(e8671fec1cc296e4ba293c7f0777f111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c8f514f50d92f93df6d3d521d30ca8') in 0.017732 seconds 
-  Import took 0.020926 seconds .
+  Time since last request: 392.399462 seconds.
+  path: Assets/Materials/CedarLeaves2.mat
+  artifactKey: Guid(09131aa46bfb1ef41934d6352963ada7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CedarLeaves2.mat using Guid(09131aa46bfb1ef41934d6352963ada7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf59bc778f59a0af90670a3499c61ce') in 0.041614 seconds 
+  Import took 0.047171 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Textures/CedartreeTextures/TexturesCom_Wood_BarkCedar_0.5x1_1K_roughness.tif
-  artifactKey: Guid(4258f5a4656fe3d4bab17c704c3fac3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/CedartreeTextures/TexturesCom_Wood_BarkCedar_0.5x1_1K_roughness.tif using Guid(4258f5a4656fe3d4bab17c704c3fac3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eabc79dbee26084b0f265facb573a869') in 0.016182 seconds 
-  Import took 0.019562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Textures/CedartreeTextures/TexturesCom_Wood_BarkCedar_0.5x1_1K_height.tif
-  artifactKey: Guid(e8671fec1cc296e4ba293c7f0777f111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/CedartreeTextures/TexturesCom_Wood_BarkCedar_0.5x1_1K_height.tif using Guid(e8671fec1cc296e4ba293c7f0777f111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c8f514f50d92f93df6d3d521d30ca8') in 0.013823 seconds 
-  Import took 0.016882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Textures/CedartreeTextures/TexturesCom_Wood_BarkCedar_0.5x1_1K_roughness.tif
-  artifactKey: Guid(4258f5a4656fe3d4bab17c704c3fac3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/CedartreeTextures/TexturesCom_Wood_BarkCedar_0.5x1_1K_roughness.tif using Guid(4258f5a4656fe3d4bab17c704c3fac3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eabc79dbee26084b0f265facb573a869') in 0.017047 seconds 
-  Import took 0.019494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Textures/CedartreeTextures/TexturesCom_Wood_BarkCedar_0.5x1_1K_normal.tif
-  artifactKey: Guid(8af1766a238b5b540a3d8ae7f7f64b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/CedartreeTextures/TexturesCom_Wood_BarkCedar_0.5x1_1K_normal.tif using Guid(8af1766a238b5b540a3d8ae7f7f64b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406037827245c037c15076806314a5c1') in 0.021651 seconds 
-  Import took 0.024349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 140.953992 seconds.
-  path: Assets/Textures/CedartreeTextures/TexturesCom_Wood_BarkCedar_0.5x1_1K_normal.tif
-  artifactKey: Guid(8af1766a238b5b540a3d8ae7f7f64b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/CedartreeTextures/TexturesCom_Wood_BarkCedar_0.5x1_1K_normal.tif using Guid(8af1766a238b5b540a3d8ae7f7f64b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440e5c225d03a3d2aef50e977f849f49') in 0.018410 seconds 
-  Import took 0.021865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1660.830792 seconds.
-  path: Assets/Models/cedartree1fbx.fbx
-  artifactKey: Guid(dfaadfbea842b394096b8f914dc8d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/cedartree1fbx.fbx using Guid(dfaadfbea842b394096b8f914dc8d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4325442256a9668813b05bd1cb3cf2c') in 0.047185 seconds 
-  Import took 0.050300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 670.476030 seconds.
-  path: Assets/Materials/CedarTreeBark.mat
-  artifactKey: Guid(8928940e3a426114692971061ed8586a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/CedarTreeBark.mat using Guid(8928940e3a426114692971061ed8586a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1255cc36b6b51c43b50c0df8a7d7a54d') in 0.060862 seconds 
-  Import took 0.064100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Materials/TexturesCom_Branches0012_1_masked_S.mat
-  artifactKey: Guid(dff78b172c9215e4dbeadd2de8d1b3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TexturesCom_Branches0012_1_masked_S.mat using Guid(dff78b172c9215e4dbeadd2de8d1b3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981a9a622a5caa055d90b66b100f9ffa') in 0.034240 seconds 
-  Import took 0.036745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 164.387727 seconds.
-  path: Assets/Materials/TexturesCom_Branches0012_1_masked_S.mat
-  artifactKey: Guid(dff78b172c9215e4dbeadd2de8d1b3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/TexturesCom_Branches0012_1_masked_S.mat using Guid(dff78b172c9215e4dbeadd2de8d1b3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e3745bb6eb42d25444db5d3bf0c797') in 0.017529 seconds 
-  Import took 0.020446 seconds .
+  Time since last request: 0.000357 seconds.
+  path: Assets/Materials/CedarLeaves3.mat
+  artifactKey: Guid(6532c9a5b9cb48245bddc4d27b413e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CedarLeaves3.mat using Guid(6532c9a5b9cb48245bddc4d27b413e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b71e3fa188e2fc1db9887c8099022b1') in 0.034805 seconds 
+  Import took 0.038654 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
