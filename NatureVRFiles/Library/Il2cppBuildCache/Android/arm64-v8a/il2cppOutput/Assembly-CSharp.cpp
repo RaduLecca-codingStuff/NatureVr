@@ -206,8 +206,8 @@ struct Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1;
 struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5;
 // UnityEngine.WaitForSeconds
 struct WaitForSeconds_t8F9189BE6E467C98C99177038881F8982E0E4013;
-// NatureVRScentController/<UpdateScentStrength>d__8
-struct U3CUpdateScentStrengthU3Ed__8_t0D0F483AC70780CC6D0ECE58C6FBEBB308EDA050;
+// NatureVRScentController/<UpdateScentStrength>d__10
+struct U3CUpdateScentStrengthU3Ed__10_t0CAC842A65C8CC3EF5EE2718E040022CD997E627;
 // SerialController/TearDownFunction
 struct TearDownFunction_t00B8EFAA404143E337F360B883FD8FD7E8ADA430;
 // SerialControllerCustomDelimiter/TearDownFunction
@@ -227,13 +227,14 @@ IL2CPP_EXTERN_C RuntimeClass* Queue_t66723C58C7422102C36F8570BE048BD0CC489E52_il
 IL2CPP_EXTERN_C RuntimeClass* SerialPort_t5D73BA87CC158EE8FE4468BE295A6F8EE674F636_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SerialThreadBinaryDelimited_t6DF91AC5F5A4C2EE6DDE1F7902AFEB1EFA901B15_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SerialThreadLines_tBB62CCFEF5D3BA698B11F8D67F88ACE576D40DA0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StringBuilder_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TearDownFunction_t00B8EFAA404143E337F360B883FD8FD7E8ADA430_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ThreadStart_tA13019555BA3CB2B0128F0880760196BF790E687_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Thread_tB9EB71664220EE16451AF3276D78DE6614D2A414_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TimeoutException_tB5D0EEFAEC3FC79FFDEF23C55D1BDF4DE347C926_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CUpdateScentStrengthU3Ed__8_t0D0F483AC70780CC6D0ECE58C6FBEBB308EDA050_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CUpdateScentStrengthU3Ed__10_t0CAC842A65C8CC3EF5EE2718E040022CD997E627_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_t8F9189BE6E467C98C99177038881F8982E0E4013_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral0FAE987D9D9D8CCFEE20161AF268A660A15ABCA1;
 IL2CPP_EXTERN_C String_t* _stringLiteral1A0AE7C00BCC17B460E1759C9034D20D06A38CB9;
@@ -245,15 +246,16 @@ IL2CPP_EXTERN_C String_t* _stringLiteral38CDED0A385ADF7F0E5E7231366D2692A3BBD419
 IL2CPP_EXTERN_C String_t* _stringLiteral3CCE3E2D591FAA5D6D21B540EE22DB980E058BC6;
 IL2CPP_EXTERN_C String_t* _stringLiteral47D72218FE863254FDDAE70213C99C10963BDB1A;
 IL2CPP_EXTERN_C String_t* _stringLiteral4B8444B8284A5F8B6D925131602695FE8FE915FC;
-IL2CPP_EXTERN_C String_t* _stringLiteral5060BA49D6C963D6179CCD9766228934C0F5112F;
 IL2CPP_EXTERN_C String_t* _stringLiteral5474341FCEE6D5B26D027013F8DF1A70609C94E4;
 IL2CPP_EXTERN_C String_t* _stringLiteral584A90F99D1720D30308E4A515077FB664C97F52;
 IL2CPP_EXTERN_C String_t* _stringLiteral647E767BE8CC5CE53415CE9A95BA3E058B72163B;
 IL2CPP_EXTERN_C String_t* _stringLiteral663DF191A148DEE7D9373C191F0145203C5C5B2A;
 IL2CPP_EXTERN_C String_t* _stringLiteral7695D43F2EA72BB38B657E4FD3394559C26E0359;
 IL2CPP_EXTERN_C String_t* _stringLiteral89062EDEDEC92709DBEFFC3A01B9BEAFAB44BDDA;
-IL2CPP_EXTERN_C String_t* _stringLiteral92164C413C489DC10F99D69C47A8258DCE8CF2DE;
+IL2CPP_EXTERN_C String_t* _stringLiteral9051F83C0785BDA27338FED014D0A4D698A2598A;
+IL2CPP_EXTERN_C String_t* _stringLiteral9CDA8DFFE6003ADA97961913403F7D92C5D6B7E0;
 IL2CPP_EXTERN_C String_t* _stringLiteral9D192706721899A3199F9973664A097379C1F0F5;
+IL2CPP_EXTERN_C String_t* _stringLiteral9E41FABAF67F868C32F24B03666CF77B4220386C;
 IL2CPP_EXTERN_C String_t* _stringLiteral9F35E736C198E5CCE3ACC36B8A4BFCBAF384D38E;
 IL2CPP_EXTERN_C String_t* _stringLiteralA880D971D3C88798C0CBDF78C6C9FE65932F630E;
 IL2CPP_EXTERN_C String_t* _stringLiteralA95898025CC11DF26437FBBC4B43CA5F697F5DB1;
@@ -276,7 +278,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisSerialController
 IL2CPP_EXTERN_C const RuntimeMethod* Predicate_1__ctor_mEEABA867E10FB48EA9EA4247C413B26E0356A8C7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SampleTearDown_lightsShutdown_m161B6A397D7DD00C6A18ED3162CCD401A13A67B8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SerialThreadBinaryDelimited_IsSeparator_mCE769604985F138F46A61717DFB893158B2D9901_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CUpdateScentStrengthU3Ed__8_System_Collections_IEnumerator_Reset_mABAF73FEF52174D7F2EE4F1AE582457B6C7B0C83_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CUpdateScentStrengthU3Ed__10_System_Collections_IEnumerator_Reset_m91711EB77F06926B4C5D53A427C1D497F257B312_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -670,19 +672,19 @@ struct YieldInstruction_tB0B4E05316710E51ECCC1E57174C27FE6DEBBEAF_marshaled_com
 {
 };
 
-// NatureVRScentController/<UpdateScentStrength>d__8
-struct U3CUpdateScentStrengthU3Ed__8_t0D0F483AC70780CC6D0ECE58C6FBEBB308EDA050  : public RuntimeObject
+// NatureVRScentController/<UpdateScentStrength>d__10
+struct U3CUpdateScentStrengthU3Ed__10_t0CAC842A65C8CC3EF5EE2718E040022CD997E627  : public RuntimeObject
 {
 public:
-	// System.Int32 NatureVRScentController/<UpdateScentStrength>d__8::<>1__state
+	// System.Int32 NatureVRScentController/<UpdateScentStrength>d__10::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object NatureVRScentController/<UpdateScentStrength>d__8::<>2__current
+	// System.Object NatureVRScentController/<UpdateScentStrength>d__10::<>2__current
 	RuntimeObject * ___U3CU3E2__current_1;
-	// NatureVRScentController NatureVRScentController/<UpdateScentStrength>d__8::<>4__this
+	// NatureVRScentController NatureVRScentController/<UpdateScentStrength>d__10::<>4__this
 	NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * ___U3CU3E4__this_2;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CUpdateScentStrengthU3Ed__8_t0D0F483AC70780CC6D0ECE58C6FBEBB308EDA050, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CUpdateScentStrengthU3Ed__10_t0CAC842A65C8CC3EF5EE2718E040022CD997E627, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -690,7 +692,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CUpdateScentStrengthU3Ed__8_t0D0F483AC70780CC6D0ECE58C6FBEBB308EDA050, ___U3CU3E2__current_1)); }
+	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CUpdateScentStrengthU3Ed__10_t0CAC842A65C8CC3EF5EE2718E040022CD997E627, ___U3CU3E2__current_1)); }
 	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
 	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
 	inline void set_U3CU3E2__current_1(RuntimeObject * value)
@@ -699,7 +701,7 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E2__current_1), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CUpdateScentStrengthU3Ed__8_t0D0F483AC70780CC6D0ECE58C6FBEBB308EDA050, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CUpdateScentStrengthU3Ed__10_t0CAC842A65C8CC3EF5EE2718E040022CD997E627, ___U3CU3E4__this_2)); }
 	inline NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * value)
@@ -2047,16 +2049,20 @@ public:
 	SerialController_t1796DDEB65A161F19A0E6945CB136AB8D7D817A8 * ___SerialController_4;
 	// UnityEngine.Transform NatureVRScentController::PlayerHead
 	Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * ___PlayerHead_5;
-	// UnityEngine.Collider[] NatureVRScentController::ScentSourceColliders
-	ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* ___ScentSourceColliders_6;
-	// System.Single NatureVRScentController::WeakestScentMinimumDistance
-	float ___WeakestScentMinimumDistance_7;
-	// System.Single NatureVRScentController::ClosestServoAngle
-	float ___ClosestServoAngle_8;
-	// System.Single NatureVRScentController::FurthestServoAngle
-	float ___FurthestServoAngle_9;
+	// UnityEngine.Collider[] NatureVRScentController::LavenderColliders
+	ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* ___LavenderColliders_6;
+	// UnityEngine.Collider[] NatureVRScentController::CedarColliders
+	ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* ___CedarColliders_7;
+	// System.Single NatureVRScentController::ScentRadius
+	float ___ScentRadius_8;
+	// System.Single NatureVRScentController::MaximumScentRadius
+	float ___MaximumScentRadius_9;
+	// System.Single NatureVRScentController::MinimumServoAngle
+	float ___MinimumServoAngle_10;
+	// System.Single NatureVRScentController::MaximumServoAngle
+	float ___MaximumServoAngle_11;
 	// System.Single NatureVRScentController::TimeBetweenUpdates
-	float ___TimeBetweenUpdates_10;
+	float ___TimeBetweenUpdates_12;
 
 public:
 	inline static int32_t get_offset_of_SerialController_4() { return static_cast<int32_t>(offsetof(NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1, ___SerialController_4)); }
@@ -2077,45 +2083,62 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___PlayerHead_5), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_ScentSourceColliders_6() { return static_cast<int32_t>(offsetof(NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1, ___ScentSourceColliders_6)); }
-	inline ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* get_ScentSourceColliders_6() const { return ___ScentSourceColliders_6; }
-	inline ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486** get_address_of_ScentSourceColliders_6() { return &___ScentSourceColliders_6; }
-	inline void set_ScentSourceColliders_6(ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* value)
+	inline static int32_t get_offset_of_LavenderColliders_6() { return static_cast<int32_t>(offsetof(NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1, ___LavenderColliders_6)); }
+	inline ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* get_LavenderColliders_6() const { return ___LavenderColliders_6; }
+	inline ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486** get_address_of_LavenderColliders_6() { return &___LavenderColliders_6; }
+	inline void set_LavenderColliders_6(ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* value)
 	{
-		___ScentSourceColliders_6 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___ScentSourceColliders_6), (void*)value);
+		___LavenderColliders_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___LavenderColliders_6), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_WeakestScentMinimumDistance_7() { return static_cast<int32_t>(offsetof(NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1, ___WeakestScentMinimumDistance_7)); }
-	inline float get_WeakestScentMinimumDistance_7() const { return ___WeakestScentMinimumDistance_7; }
-	inline float* get_address_of_WeakestScentMinimumDistance_7() { return &___WeakestScentMinimumDistance_7; }
-	inline void set_WeakestScentMinimumDistance_7(float value)
+	inline static int32_t get_offset_of_CedarColliders_7() { return static_cast<int32_t>(offsetof(NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1, ___CedarColliders_7)); }
+	inline ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* get_CedarColliders_7() const { return ___CedarColliders_7; }
+	inline ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486** get_address_of_CedarColliders_7() { return &___CedarColliders_7; }
+	inline void set_CedarColliders_7(ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* value)
 	{
-		___WeakestScentMinimumDistance_7 = value;
+		___CedarColliders_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___CedarColliders_7), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_ClosestServoAngle_8() { return static_cast<int32_t>(offsetof(NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1, ___ClosestServoAngle_8)); }
-	inline float get_ClosestServoAngle_8() const { return ___ClosestServoAngle_8; }
-	inline float* get_address_of_ClosestServoAngle_8() { return &___ClosestServoAngle_8; }
-	inline void set_ClosestServoAngle_8(float value)
+	inline static int32_t get_offset_of_ScentRadius_8() { return static_cast<int32_t>(offsetof(NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1, ___ScentRadius_8)); }
+	inline float get_ScentRadius_8() const { return ___ScentRadius_8; }
+	inline float* get_address_of_ScentRadius_8() { return &___ScentRadius_8; }
+	inline void set_ScentRadius_8(float value)
 	{
-		___ClosestServoAngle_8 = value;
+		___ScentRadius_8 = value;
 	}
 
-	inline static int32_t get_offset_of_FurthestServoAngle_9() { return static_cast<int32_t>(offsetof(NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1, ___FurthestServoAngle_9)); }
-	inline float get_FurthestServoAngle_9() const { return ___FurthestServoAngle_9; }
-	inline float* get_address_of_FurthestServoAngle_9() { return &___FurthestServoAngle_9; }
-	inline void set_FurthestServoAngle_9(float value)
+	inline static int32_t get_offset_of_MaximumScentRadius_9() { return static_cast<int32_t>(offsetof(NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1, ___MaximumScentRadius_9)); }
+	inline float get_MaximumScentRadius_9() const { return ___MaximumScentRadius_9; }
+	inline float* get_address_of_MaximumScentRadius_9() { return &___MaximumScentRadius_9; }
+	inline void set_MaximumScentRadius_9(float value)
 	{
-		___FurthestServoAngle_9 = value;
+		___MaximumScentRadius_9 = value;
 	}
 
-	inline static int32_t get_offset_of_TimeBetweenUpdates_10() { return static_cast<int32_t>(offsetof(NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1, ___TimeBetweenUpdates_10)); }
-	inline float get_TimeBetweenUpdates_10() const { return ___TimeBetweenUpdates_10; }
-	inline float* get_address_of_TimeBetweenUpdates_10() { return &___TimeBetweenUpdates_10; }
-	inline void set_TimeBetweenUpdates_10(float value)
+	inline static int32_t get_offset_of_MinimumServoAngle_10() { return static_cast<int32_t>(offsetof(NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1, ___MinimumServoAngle_10)); }
+	inline float get_MinimumServoAngle_10() const { return ___MinimumServoAngle_10; }
+	inline float* get_address_of_MinimumServoAngle_10() { return &___MinimumServoAngle_10; }
+	inline void set_MinimumServoAngle_10(float value)
 	{
-		___TimeBetweenUpdates_10 = value;
+		___MinimumServoAngle_10 = value;
+	}
+
+	inline static int32_t get_offset_of_MaximumServoAngle_11() { return static_cast<int32_t>(offsetof(NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1, ___MaximumServoAngle_11)); }
+	inline float get_MaximumServoAngle_11() const { return ___MaximumServoAngle_11; }
+	inline float* get_address_of_MaximumServoAngle_11() { return &___MaximumServoAngle_11; }
+	inline void set_MaximumServoAngle_11(float value)
+	{
+		___MaximumServoAngle_11 = value;
+	}
+
+	inline static int32_t get_offset_of_TimeBetweenUpdates_12() { return static_cast<int32_t>(offsetof(NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1, ___TimeBetweenUpdates_12)); }
+	inline float get_TimeBetweenUpdates_12() const { return ___TimeBetweenUpdates_12; }
+	inline float* get_address_of_TimeBetweenUpdates_12() { return &___TimeBetweenUpdates_12; }
+	inline void set_TimeBetweenUpdates_12(float value)
+	{
+		___TimeBetweenUpdates_12 = value;
 	}
 };
 
@@ -2563,8 +2586,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m4B4AB72618348C5DFBFB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NatureVRScentController_UpdateScentStrength_m1899932C28D37A5D752A10B6650DA8AC7609CD31 (NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * __this, const RuntimeMethod* method);
 // UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FAA9CCB7 * MonoBehaviour_StartCoroutine_m3E33706D38B23CDD179E99BAD61E32303E9CC719 (MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A * __this, RuntimeObject* ___routine0, const RuntimeMethod* method);
-// System.Void NatureVRScentController/<UpdateScentStrength>d__8::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateScentStrengthU3Ed__8__ctor_m02DBC1F8735CC4B410E6E278D682B39EA84EB1A6 (U3CUpdateScentStrengthU3Ed__8_t0D0F483AC70780CC6D0ECE58C6FBEBB308EDA050 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method);
+// System.Void NatureVRScentController/<UpdateScentStrength>d__10::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateScentStrengthU3Ed__10__ctor_m20B7CE54FBA1EB0C369A1242380E6FA25D2C8095 (U3CUpdateScentStrengthU3Ed__10_t0CAC842A65C8CC3EF5EE2718E040022CD997E627 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method);
 // System.Void UnityEngine.Debug::Log(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8 (RuntimeObject * ___message0, const RuntimeMethod* method);
 // System.Void UnityEngine.MonoBehaviour::.ctor()
@@ -2657,12 +2680,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  Collider_ClosestPoint_m7777917E298B31796DEE906B54F0102F6ED76676 (Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___position0, const RuntimeMethod* method);
 // System.Single UnityEngine.Vector3::Distance(UnityEngine.Vector3,UnityEngine.Vector3)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vector3_Distance_mB648A79E4A1BAAFBF7B029644638C0D715480677 (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___a0, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___b1, const RuntimeMethod* method);
-// System.Single UnityEngine.Mathf::Clamp(System.Single,System.Single,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Mathf_Clamp_m2416F3B785C8F135863E3D17E5B0CB4174797B87 (float ___value0, float ___min1, float ___max2, const RuntimeMethod* method);
+// System.Single UnityEngine.Mathf::Max(System.Single,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Mathf_Max_m4CE510E1F1013B33275F01543731A51A58BA0775 (float ___a0, float ___b1, const RuntimeMethod* method);
 // System.Single UnityEngine.Mathf::Lerp(System.Single,System.Single,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Mathf_Lerp_m8A2A50B945F42D579EDF44D5EE79E85A4DA59616 (float ___a0, float ___b1, float ___t2, const RuntimeMethod* method);
-// System.String System.Single::ToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_m80E7ABED4F4D73F2BE19DDB80D3D92FCD8DFA010 (float* __this, const RuntimeMethod* method);
+// System.String System.String::Format(System.String,System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m8D1CB0410C35E052A53AE957C914C841E54BAB66 (String_t* ___format0, RuntimeObject * ___arg01, RuntimeObject * ___arg12, const RuntimeMethod* method);
 // System.Void UnityEngine.WaitForSeconds::.ctor(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_mD298C4CB9532BBBDE172FC40F3397E30504038D4 (WaitForSeconds_t8F9189BE6E467C98C99177038881F8982E0E4013 * __this, float ___seconds0, const RuntimeMethod* method);
 // System.Void System.NotSupportedException::.ctor()
@@ -3374,13 +3397,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NatureVRScentController_Update
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CUpdateScentStrengthU3Ed__8_t0D0F483AC70780CC6D0ECE58C6FBEBB308EDA050_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CUpdateScentStrengthU3Ed__10_t0CAC842A65C8CC3EF5EE2718E040022CD997E627_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CUpdateScentStrengthU3Ed__8_t0D0F483AC70780CC6D0ECE58C6FBEBB308EDA050 * L_0 = (U3CUpdateScentStrengthU3Ed__8_t0D0F483AC70780CC6D0ECE58C6FBEBB308EDA050 *)il2cpp_codegen_object_new(U3CUpdateScentStrengthU3Ed__8_t0D0F483AC70780CC6D0ECE58C6FBEBB308EDA050_il2cpp_TypeInfo_var);
-		U3CUpdateScentStrengthU3Ed__8__ctor_m02DBC1F8735CC4B410E6E278D682B39EA84EB1A6(L_0, 0, /*hidden argument*/NULL);
-		U3CUpdateScentStrengthU3Ed__8_t0D0F483AC70780CC6D0ECE58C6FBEBB308EDA050 * L_1 = L_0;
+		U3CUpdateScentStrengthU3Ed__10_t0CAC842A65C8CC3EF5EE2718E040022CD997E627 * L_0 = (U3CUpdateScentStrengthU3Ed__10_t0CAC842A65C8CC3EF5EE2718E040022CD997E627 *)il2cpp_codegen_object_new(U3CUpdateScentStrengthU3Ed__10_t0CAC842A65C8CC3EF5EE2718E040022CD997E627_il2cpp_TypeInfo_var);
+		U3CUpdateScentStrengthU3Ed__10__ctor_m20B7CE54FBA1EB0C369A1242380E6FA25D2C8095(L_0, 0, /*hidden argument*/NULL);
+		U3CUpdateScentStrengthU3Ed__10_t0CAC842A65C8CC3EF5EE2718E040022CD997E627 * L_1 = L_0;
 		NullCheck(L_1);
 		L_1->set_U3CU3E4__this_2(__this);
 		return L_1;
@@ -3393,14 +3416,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatureVRScentController_OnMessageArrived
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral92164C413C489DC10F99D69C47A8258DCE8CF2DE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9E41FABAF67F868C32F24B03666CF77B4220386C);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// Debug.Log("Micro bit received message: " + msg);
+		// Debug.Log($"Received serial message: {msg}");
 		String_t* L_0 = ___msg0;
 		String_t* L_1;
-		L_1 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral92164C413C489DC10F99D69C47A8258DCE8CF2DE, L_0, /*hidden argument*/NULL);
+		L_1 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral9E41FABAF67F868C32F24B03666CF77B4220386C, L_0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_1, /*hidden argument*/NULL);
 		// }
@@ -3446,12 +3469,14 @@ IL_000e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatureVRScentController__ctor_m288F9AE545C436427A913820832A8362F09AB857 (NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * __this, const RuntimeMethod* method)
 {
 	{
-		// public float WeakestScentMinimumDistance = 1;
-		__this->set_WeakestScentMinimumDistance_7((1.0f));
-		// public float FurthestServoAngle = 180;
-		__this->set_FurthestServoAngle_9((180.0f));
+		// public float ScentRadius = 1;
+		__this->set_ScentRadius_8((1.0f));
+		// public float MaximumScentRadius = 0.25f;
+		__this->set_MaximumScentRadius_9((0.25f));
+		// public float MaximumServoAngle = 180;
+		__this->set_MaximumServoAngle_11((180.0f));
 		// public float TimeBetweenUpdates = 0.2f;
-		__this->set_TimeBetweenUpdates_10((0.200000003f));
+		__this->set_TimeBetweenUpdates_12((0.200000003f));
 		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -4957,8 +4982,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * SerialThreadLines_ReadFromWir
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void NatureVRScentController/<UpdateScentStrength>d__8::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateScentStrengthU3Ed__8__ctor_m02DBC1F8735CC4B410E6E278D682B39EA84EB1A6 (U3CUpdateScentStrengthU3Ed__8_t0D0F483AC70780CC6D0ECE58C6FBEBB308EDA050 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method)
+// System.Void NatureVRScentController/<UpdateScentStrength>d__10::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateScentStrengthU3Ed__10__ctor_m20B7CE54FBA1EB0C369A1242380E6FA25D2C8095 (U3CUpdateScentStrengthU3Ed__10_t0CAC842A65C8CC3EF5EE2718E040022CD997E627 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method)
 {
 	{
 		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
@@ -4967,35 +4992,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateScentStrengthU3Ed__8__ctor_m02D
 		return;
 	}
 }
-// System.Void NatureVRScentController/<UpdateScentStrength>d__8::System.IDisposable.Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateScentStrengthU3Ed__8_System_IDisposable_Dispose_m8F663D58242F86BCE83F658B22957244537F5A51 (U3CUpdateScentStrengthU3Ed__8_t0D0F483AC70780CC6D0ECE58C6FBEBB308EDA050 * __this, const RuntimeMethod* method)
+// System.Void NatureVRScentController/<UpdateScentStrength>d__10::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateScentStrengthU3Ed__10_System_IDisposable_Dispose_mF2B1CF17D70CCD802D02C5597D63AE1EE3505415 (U3CUpdateScentStrengthU3Ed__10_t0CAC842A65C8CC3EF5EE2718E040022CD997E627 * __this, const RuntimeMethod* method)
 {
 	{
 		return;
 	}
 }
-// System.Boolean NatureVRScentController/<UpdateScentStrength>d__8::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CUpdateScentStrengthU3Ed__8_MoveNext_m9B2C9C94494F6C11A9F90F037C5B1EF850EC1FB2 (U3CUpdateScentStrengthU3Ed__8_t0D0F483AC70780CC6D0ECE58C6FBEBB308EDA050 * __this, const RuntimeMethod* method)
+// System.Boolean NatureVRScentController/<UpdateScentStrength>d__10::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CUpdateScentStrengthU3Ed__10_MoveNext_m6AC5A451D289028BD01187E2D0B92C5E7F335DB0 (U3CUpdateScentStrengthU3Ed__10_t0CAC842A65C8CC3EF5EE2718E040022CD997E627 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_t8F9189BE6E467C98C99177038881F8982E0E4013_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5060BA49D6C963D6179CCD9766228934C0F5112F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9051F83C0785BDA27338FED014D0A4D698A2598A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9CDA8DFFE6003ADA97961913403F7D92C5D6B7E0);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
 	NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * V_1 = NULL;
-	float V_2 = 0.0f;
-	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  V_3;
-	memset((&V_3), 0, sizeof(V_3));
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	float V_3 = 0.0f;
 	float V_4 = 0.0f;
-	ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* V_5 = NULL;
-	int32_t V_6 = 0;
-	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  V_7;
-	memset((&V_7), 0, sizeof(V_7));
-	float V_8 = 0.0f;
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* V_7 = NULL;
+	int32_t V_8 = 0;
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	float V_10 = 0.0f;
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	float V_12 = 0.0f;
 	{
 		int32_t L_0 = __this->get_U3CU3E1__state_0();
 		V_0 = L_0;
@@ -5011,7 +5043,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CUpdateScentStrengthU3Ed__8_MoveNext_m
 		int32_t L_3 = V_0;
 		if ((((int32_t)L_3) == ((int32_t)1)))
 		{
-			goto IL_00f3;
+			goto IL_0170;
 		}
 	}
 	{
@@ -5025,8 +5057,6 @@ IL_001a:
 
 IL_0021:
 	{
-		// float scentStrength = 0;
-		V_2 = (0.0f);
 		// Vector3 playerHeadPosition = PlayerHead.transform.position;
 		NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * L_4 = V_1;
 		NullCheck(L_4);
@@ -5037,132 +5067,215 @@ IL_0021:
 		NullCheck(L_6);
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_7;
 		L_7 = Transform_get_position_m40A8A9895568D56FFC687B57F30E8D53CB5EA341(L_6, /*hidden argument*/NULL);
-		V_3 = L_7;
-		// foreach (var collider in ScentSourceColliders)
+		V_2 = L_7;
+		// float lavenderScentStrength = 0;
+		V_3 = (0.0f);
+		// float cedarScentStrength = 0;
+		V_4 = (0.0f);
+		// foreach (var collider in LavenderColliders)
 		NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * L_8 = V_1;
 		NullCheck(L_8);
-		ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* L_9 = L_8->get_ScentSourceColliders_6();
-		V_5 = L_9;
-		V_6 = 0;
-		goto IL_0084;
+		ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* L_9 = L_8->get_LavenderColliders_6();
+		V_7 = L_9;
+		V_8 = 0;
+		goto IL_008d;
 	}
 
-IL_0045:
+IL_004c:
 	{
-		// foreach (var collider in ScentSourceColliders)
-		ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* L_10 = V_5;
-		int32_t L_11 = V_6;
+		// foreach (var collider in LavenderColliders)
+		ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* L_10 = V_7;
+		int32_t L_11 = V_8;
 		NullCheck(L_10);
 		int32_t L_12 = L_11;
 		Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
 		// Vector3 closestPoint = collider.ClosestPoint(playerHeadPosition);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_14 = V_3;
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_14 = V_2;
 		NullCheck(L_13);
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_15;
 		L_15 = Collider_ClosestPoint_m7777917E298B31796DEE906B54F0102F6ED76676(L_13, L_14, /*hidden argument*/NULL);
-		V_7 = L_15;
+		V_9 = L_15;
 		// float scentDistance = Vector3.Distance(playerHeadPosition, closestPoint);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_16 = V_3;
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_17 = V_7;
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_16 = V_2;
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_17 = V_9;
 		float L_18;
 		L_18 = Vector3_Distance_mB648A79E4A1BAAFBF7B029644638C0D715480677(L_16, L_17, /*hidden argument*/NULL);
-		V_8 = L_18;
-		// scentStrength += Mathf.Clamp((WeakestScentMinimumDistance - scentDistance) / WeakestScentMinimumDistance, 0, 1);
-		float L_19 = V_2;
+		V_10 = L_18;
+		// lavenderScentStrength += Mathf.Max(0, (ScentRadius - scentDistance) / (ScentRadius - MaximumScentRadius));
+		float L_19 = V_3;
 		NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * L_20 = V_1;
 		NullCheck(L_20);
-		float L_21 = L_20->get_WeakestScentMinimumDistance_7();
-		float L_22 = V_8;
+		float L_21 = L_20->get_ScentRadius_8();
+		float L_22 = V_10;
 		NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * L_23 = V_1;
 		NullCheck(L_23);
-		float L_24 = L_23->get_WeakestScentMinimumDistance_7();
-		float L_25;
-		L_25 = Mathf_Clamp_m2416F3B785C8F135863E3D17E5B0CB4174797B87(((float)((float)((float)il2cpp_codegen_subtract((float)L_21, (float)L_22))/(float)L_24)), (0.0f), (1.0f), /*hidden argument*/NULL);
-		V_2 = ((float)il2cpp_codegen_add((float)L_19, (float)L_25));
-		int32_t L_26 = V_6;
-		V_6 = ((int32_t)il2cpp_codegen_add((int32_t)L_26, (int32_t)1));
+		float L_24 = L_23->get_ScentRadius_8();
+		NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * L_25 = V_1;
+		NullCheck(L_25);
+		float L_26 = L_25->get_MaximumScentRadius_9();
+		float L_27;
+		L_27 = Mathf_Max_m4CE510E1F1013B33275F01543731A51A58BA0775((0.0f), ((float)((float)((float)il2cpp_codegen_subtract((float)L_21, (float)L_22))/(float)((float)il2cpp_codegen_subtract((float)L_24, (float)L_26)))), /*hidden argument*/NULL);
+		V_3 = ((float)il2cpp_codegen_add((float)L_19, (float)L_27));
+		int32_t L_28 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add((int32_t)L_28, (int32_t)1));
 	}
 
-IL_0084:
+IL_008d:
 	{
-		// foreach (var collider in ScentSourceColliders)
-		int32_t L_27 = V_6;
-		ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* L_28 = V_5;
-		NullCheck(L_28);
-		if ((((int32_t)L_27) < ((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_28)->max_length))))))
+		// foreach (var collider in LavenderColliders)
+		int32_t L_29 = V_8;
+		ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* L_30 = V_7;
+		NullCheck(L_30);
+		if ((((int32_t)L_29) < ((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_30)->max_length))))))
 		{
-			goto IL_0045;
+			goto IL_004c;
 		}
 	}
 	{
-		// scentStrength = Mathf.Clamp(scentStrength, 0, 1);
-		float L_29 = V_2;
-		float L_30;
-		L_30 = Mathf_Clamp_m2416F3B785C8F135863E3D17E5B0CB4174797B87(L_29, (0.0f), (1.0f), /*hidden argument*/NULL);
-		V_2 = L_30;
-		// float servoAngle = Mathf.Lerp(FurthestServoAngle, ClosestServoAngle, scentStrength);
+		// foreach (var collider in CedarColliders)
 		NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * L_31 = V_1;
 		NullCheck(L_31);
-		float L_32 = L_31->get_FurthestServoAngle_9();
-		NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * L_33 = V_1;
+		ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* L_32 = L_31->get_CedarColliders_7();
+		V_7 = L_32;
+		V_8 = 0;
+		goto IL_00e5;
+	}
+
+IL_00a2:
+	{
+		// foreach (var collider in CedarColliders)
+		ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* L_33 = V_7;
+		int32_t L_34 = V_8;
 		NullCheck(L_33);
-		float L_34 = L_33->get_ClosestServoAngle_8();
-		float L_35 = V_2;
-		float L_36;
-		L_36 = Mathf_Lerp_m8A2A50B945F42D579EDF44D5EE79E85A4DA59616(L_32, L_34, L_35, /*hidden argument*/NULL);
-		V_4 = L_36;
-		// Debug.Log("Set servo to angle " + servoAngle);
-		String_t* L_37;
-		L_37 = Single_ToString_m80E7ABED4F4D73F2BE19DDB80D3D92FCD8DFA010((float*)(&V_4), /*hidden argument*/NULL);
-		String_t* L_38;
-		L_38 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral5060BA49D6C963D6179CCD9766228934C0F5112F, L_37, /*hidden argument*/NULL);
+		int32_t L_35 = L_34;
+		Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * L_36 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
+		// Vector3 closestPoint = collider.ClosestPoint(playerHeadPosition);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_37 = V_2;
+		NullCheck(L_36);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_38;
+		L_38 = Collider_ClosestPoint_m7777917E298B31796DEE906B54F0102F6ED76676(L_36, L_37, /*hidden argument*/NULL);
+		V_11 = L_38;
+		// float scentDistance = Vector3.Distance(playerHeadPosition, closestPoint);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_39 = V_2;
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_40 = V_11;
+		float L_41;
+		L_41 = Vector3_Distance_mB648A79E4A1BAAFBF7B029644638C0D715480677(L_39, L_40, /*hidden argument*/NULL);
+		V_12 = L_41;
+		// cedarScentStrength += Mathf.Max(0, (ScentRadius - scentDistance) / (ScentRadius - MaximumScentRadius));
+		float L_42 = V_4;
+		NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * L_43 = V_1;
+		NullCheck(L_43);
+		float L_44 = L_43->get_ScentRadius_8();
+		float L_45 = V_12;
+		NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * L_46 = V_1;
+		NullCheck(L_46);
+		float L_47 = L_46->get_ScentRadius_8();
+		NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * L_48 = V_1;
+		NullCheck(L_48);
+		float L_49 = L_48->get_MaximumScentRadius_9();
+		float L_50;
+		L_50 = Mathf_Max_m4CE510E1F1013B33275F01543731A51A58BA0775((0.0f), ((float)((float)((float)il2cpp_codegen_subtract((float)L_44, (float)L_45))/(float)((float)il2cpp_codegen_subtract((float)L_47, (float)L_49)))), /*hidden argument*/NULL);
+		V_4 = ((float)il2cpp_codegen_add((float)L_42, (float)L_50));
+		int32_t L_51 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add((int32_t)L_51, (int32_t)1));
+	}
+
+IL_00e5:
+	{
+		// foreach (var collider in CedarColliders)
+		int32_t L_52 = V_8;
+		ColliderU5BU5D_t5124940293343DB3D31DA41C593709905906E486* L_53 = V_7;
+		NullCheck(L_53);
+		if ((((int32_t)L_52) < ((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_53)->max_length))))))
+		{
+			goto IL_00a2;
+		}
+	}
+	{
+		// float lavenderServoAngle = Mathf.Lerp(MinimumServoAngle, MaximumServoAngle, lavenderScentStrength);
+		NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * L_54 = V_1;
+		NullCheck(L_54);
+		float L_55 = L_54->get_MinimumServoAngle_10();
+		NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * L_56 = V_1;
+		NullCheck(L_56);
+		float L_57 = L_56->get_MaximumServoAngle_11();
+		float L_58 = V_3;
+		float L_59;
+		L_59 = Mathf_Lerp_m8A2A50B945F42D579EDF44D5EE79E85A4DA59616(L_55, L_57, L_58, /*hidden argument*/NULL);
+		V_5 = L_59;
+		// float cedarServoAngle = Mathf.Lerp(MaximumServoAngle, MinimumServoAngle, cedarScentStrength);
+		NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * L_60 = V_1;
+		NullCheck(L_60);
+		float L_61 = L_60->get_MaximumServoAngle_11();
+		NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * L_62 = V_1;
+		NullCheck(L_62);
+		float L_63 = L_62->get_MinimumServoAngle_10();
+		float L_64 = V_4;
+		float L_65;
+		L_65 = Mathf_Lerp_m8A2A50B945F42D579EDF44D5EE79E85A4DA59616(L_61, L_63, L_64, /*hidden argument*/NULL);
+		V_6 = L_65;
+		// Debug.Log($"Setting lavender: {lavenderServoAngle}, cedar: {cedarServoAngle}");
+		float L_66 = V_5;
+		float L_67 = L_66;
+		RuntimeObject * L_68 = Box(Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_il2cpp_TypeInfo_var, &L_67);
+		float L_69 = V_6;
+		float L_70 = L_69;
+		RuntimeObject * L_71 = Box(Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_il2cpp_TypeInfo_var, &L_70);
+		String_t* L_72;
+		L_72 = String_Format_m8D1CB0410C35E052A53AE957C914C841E54BAB66(_stringLiteral9CDA8DFFE6003ADA97961913403F7D92C5D6B7E0, L_68, L_71, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_38, /*hidden argument*/NULL);
-		// SerialController.SendSerialMessage(servoAngle.ToString());
-		NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * L_39 = V_1;
-		NullCheck(L_39);
-		SerialController_t1796DDEB65A161F19A0E6945CB136AB8D7D817A8 * L_40 = L_39->get_SerialController_4();
-		String_t* L_41;
-		L_41 = Single_ToString_m80E7ABED4F4D73F2BE19DDB80D3D92FCD8DFA010((float*)(&V_4), /*hidden argument*/NULL);
-		NullCheck(L_40);
-		SerialController_SendSerialMessage_m1965AD379D75A46668699FE18AC4A9332E5CA35D(L_40, L_41, /*hidden argument*/NULL);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_72, /*hidden argument*/NULL);
+		// SerialController.SendSerialMessage($"{lavenderServoAngle},{cedarServoAngle}");
+		NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * L_73 = V_1;
+		NullCheck(L_73);
+		SerialController_t1796DDEB65A161F19A0E6945CB136AB8D7D817A8 * L_74 = L_73->get_SerialController_4();
+		float L_75 = V_5;
+		float L_76 = L_75;
+		RuntimeObject * L_77 = Box(Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_il2cpp_TypeInfo_var, &L_76);
+		float L_78 = V_6;
+		float L_79 = L_78;
+		RuntimeObject * L_80 = Box(Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_il2cpp_TypeInfo_var, &L_79);
+		String_t* L_81;
+		L_81 = String_Format_m8D1CB0410C35E052A53AE957C914C841E54BAB66(_stringLiteral9051F83C0785BDA27338FED014D0A4D698A2598A, L_77, L_80, /*hidden argument*/NULL);
+		NullCheck(L_74);
+		SerialController_SendSerialMessage_m1965AD379D75A46668699FE18AC4A9332E5CA35D(L_74, L_81, /*hidden argument*/NULL);
 		// yield return new WaitForSeconds(TimeBetweenUpdates);
-		NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * L_42 = V_1;
-		NullCheck(L_42);
-		float L_43 = L_42->get_TimeBetweenUpdates_10();
-		WaitForSeconds_t8F9189BE6E467C98C99177038881F8982E0E4013 * L_44 = (WaitForSeconds_t8F9189BE6E467C98C99177038881F8982E0E4013 *)il2cpp_codegen_object_new(WaitForSeconds_t8F9189BE6E467C98C99177038881F8982E0E4013_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_mD298C4CB9532BBBDE172FC40F3397E30504038D4(L_44, L_43, /*hidden argument*/NULL);
-		__this->set_U3CU3E2__current_1(L_44);
+		NatureVRScentController_t55F912D5565C59BDC8CCC9E4C07F2FEA2473A5B1 * L_82 = V_1;
+		NullCheck(L_82);
+		float L_83 = L_82->get_TimeBetweenUpdates_12();
+		WaitForSeconds_t8F9189BE6E467C98C99177038881F8982E0E4013 * L_84 = (WaitForSeconds_t8F9189BE6E467C98C99177038881F8982E0E4013 *)il2cpp_codegen_object_new(WaitForSeconds_t8F9189BE6E467C98C99177038881F8982E0E4013_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_mD298C4CB9532BBBDE172FC40F3397E30504038D4(L_84, L_83, /*hidden argument*/NULL);
+		__this->set_U3CU3E2__current_1(L_84);
 		__this->set_U3CU3E1__state_0(1);
 		return (bool)1;
 	}
 
-IL_00f3:
+IL_0170:
 	{
 		__this->set_U3CU3E1__state_0((-1));
 		// while (true)
 		goto IL_0021;
 	}
 }
-// System.Object NatureVRScentController/<UpdateScentStrength>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * U3CUpdateScentStrengthU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE0B83F5D318BD4EC411D4D935E72B8F0AE652DC4 (U3CUpdateScentStrengthU3Ed__8_t0D0F483AC70780CC6D0ECE58C6FBEBB308EDA050 * __this, const RuntimeMethod* method)
+// System.Object NatureVRScentController/<UpdateScentStrength>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * U3CUpdateScentStrengthU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB4F81CD4B5E45BBED698D57953AD351388EDFA45 (U3CUpdateScentStrengthU3Ed__10_t0CAC842A65C8CC3EF5EE2718E040022CD997E627 * __this, const RuntimeMethod* method)
 {
 	{
 		RuntimeObject * L_0 = __this->get_U3CU3E2__current_1();
 		return L_0;
 	}
 }
-// System.Void NatureVRScentController/<UpdateScentStrength>d__8::System.Collections.IEnumerator.Reset()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateScentStrengthU3Ed__8_System_Collections_IEnumerator_Reset_mABAF73FEF52174D7F2EE4F1AE582457B6C7B0C83 (U3CUpdateScentStrengthU3Ed__8_t0D0F483AC70780CC6D0ECE58C6FBEBB308EDA050 * __this, const RuntimeMethod* method)
+// System.Void NatureVRScentController/<UpdateScentStrength>d__10::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CUpdateScentStrengthU3Ed__10_System_Collections_IEnumerator_Reset_m91711EB77F06926B4C5D53A427C1D497F257B312 (U3CUpdateScentStrengthU3Ed__10_t0CAC842A65C8CC3EF5EE2718E040022CD997E627 * __this, const RuntimeMethod* method)
 {
 	{
 		NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 * L_0 = (NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m3EA81A5B209A87C3ADA47443F2AFFF735E5256EE(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CUpdateScentStrengthU3Ed__8_System_Collections_IEnumerator_Reset_mABAF73FEF52174D7F2EE4F1AE582457B6C7B0C83_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CUpdateScentStrengthU3Ed__10_System_Collections_IEnumerator_Reset_m91711EB77F06926B4C5D53A427C1D497F257B312_RuntimeMethod_var)));
 	}
 }
-// System.Object NatureVRScentController/<UpdateScentStrength>d__8::System.Collections.IEnumerator.get_Current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * U3CUpdateScentStrengthU3Ed__8_System_Collections_IEnumerator_get_Current_mEDB8A4715F6AF38A3ACB0D27D4A5F2813FFFCBF8 (U3CUpdateScentStrengthU3Ed__8_t0D0F483AC70780CC6D0ECE58C6FBEBB308EDA050 * __this, const RuntimeMethod* method)
+// System.Object NatureVRScentController/<UpdateScentStrength>d__10::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * U3CUpdateScentStrengthU3Ed__10_System_Collections_IEnumerator_get_Current_m6701BB5850B6F201F234C48FB2B468475CBA3744 (U3CUpdateScentStrengthU3Ed__10_t0CAC842A65C8CC3EF5EE2718E040022CD997E627 * __this, const RuntimeMethod* method)
 {
 	{
 		RuntimeObject * L_0 = __this->get_U3CU3E2__current_1();
