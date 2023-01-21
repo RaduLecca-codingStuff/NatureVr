@@ -15,12 +15,12 @@ C:/Users/ldryo/Documents/GitHub/NatureVr/NatureVRFiles
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54949
+51260
 Successfully changed project path to: C:/Users/ldryo/Documents/GitHub/NatureVr/NatureVRFiles
 C:/Users/ldryo/Documents/GitHub/NatureVr/NatureVRFiles
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 103.86 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 1.67 ms.
+Refreshing native plugins compatible for Editor in 45.26 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 1.69 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/ldryo/Documents/GitHub/NatureVr/NatureVRFiles/Assets
@@ -35,49 +35,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002692 seconds.
+Registered in 0.001612 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 128.16 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.24 ms.
+Refreshing native plugins compatible for Editor in 34.87 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.557 seconds
+- Completed reload, in  1.581 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5558ms)
-		BeginReloadAssembly (143ms)
+	ReloadAssembly (1581ms)
+		BeginReloadAssembly (43ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1283ms)
-			LoadAssemblies (139ms)
+		EndReloadAssembly (312ms)
+			LoadAssemblies (41ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (376ms)
+			SetupTypeCache (104ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (90ms)
-			SetupLoadedEditorAssemblies (525ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (128ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (129ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (216ms)
-				ProcessInitializeOnLoadMethodAttributes (96ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (59ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008225 seconds.
+Registered in 0.006100 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.30 ms.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -98,45 +98,45 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.373 seconds
+- Completed reload, in  0.780 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3374ms)
-		BeginReloadAssembly (625ms)
+	ReloadAssembly (781ms)
+		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (161ms)
-		EndReloadAssembly (2644ms)
-			LoadAssemblies (444ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (625ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (873ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (195ms)
-			SetupLoadedEditorAssemblies (916ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (265ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (264ms)
-				ProcessInitializeOnLoadAttributes (583ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (17ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.63 seconds
-Refreshing native plugins compatible for Editor in 1.76 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.29 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 Unloading 1875 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.9 MB.
-System memory in use after: 93.0 MB.
+System memory in use before: 92.8 MB.
+System memory in use after: 92.9 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2327.
-Total: 24.658500 ms (FindLiveObjects: 0.412200 ms CreateObjectMapping: 0.087700 ms MarkObjects: 24.045900 ms  DeleteObjects: 0.110500 ms)
+Total: 2.598300 ms (FindLiveObjects: 0.179600 ms CreateObjectMapping: 0.047700 ms MarkObjects: 2.297400 ms  DeleteObjects: 0.072900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -150,249 +150,54 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Models/LavenderBush.fbx
-  artifactKey: Guid(01ae928dff492d24ca5a37bc62243630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/LavenderBush.fbx using Guid(01ae928dff492d24ca5a37bc62243630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e196885c533e73d4bbe3e43d199e07bf') in 5.401595 seconds 
-  Import took 5.409234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.060496 seconds.
-  path: Assets/Textures/herbs
-  artifactKey: Guid(a0c4c20a7c2c7bf449f10e2d50be8191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/herbs using Guid(a0c4c20a7c2c7bf449f10e2d50be8191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9d8ec649589fc8208b43599a791645') in 0.023446 seconds 
-  Import took 0.030113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.297004 seconds.
-  path: Assets/Textures/herbs/LavenderTexture.png
-  artifactKey: Guid(98980021acec85145a18bf0c131750ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/herbs/LavenderTexture.png using Guid(98980021acec85145a18bf0c131750ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c0fa2d6588e6f925cf40ccb8d33941') in 0.917037 seconds 
-  Import took 0.922751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.166401 seconds.
-  path: Assets/Textures/herbs/LavenderTexture.png
-  artifactKey: Guid(98980021acec85145a18bf0c131750ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/herbs/LavenderTexture.png using Guid(98980021acec85145a18bf0c131750ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e11a1345f1340c88e09a07cbdea227') in 0.856544 seconds 
-  Import took 0.861682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.029962 seconds.
-  path: Assets/Models/LavenderBush.fbx
-  artifactKey: Guid(01ae928dff492d24ca5a37bc62243630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/LavenderBush.fbx using Guid(01ae928dff492d24ca5a37bc62243630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4570b60fd7f481defe68d2f7afd26754') in 0.081042 seconds 
-  Import took 0.084030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 84.325881 seconds.
-  path: Assets/Models/LavenderBush.fbx
-  artifactKey: Guid(01ae928dff492d24ca5a37bc62243630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/LavenderBush.fbx using Guid(01ae928dff492d24ca5a37bc62243630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae72e59d457ff86c8a4e7a08ced9e7ed') in 0.080826 seconds 
-  Import took 0.083845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.400953 seconds.
-  path: Assets/Models/Lavender.fbx
-  artifactKey: Guid(944a8cfa6f26a004a843cc071ccbbac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Lavender.fbx using Guid(944a8cfa6f26a004a843cc071ccbbac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d2cdf54350d9007af887cd710d3f77') in 0.082544 seconds 
-  Import took 0.085610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 54.767434 seconds.
-  path: Assets/Models/LavenderBush.fbx
-  artifactKey: Guid(01ae928dff492d24ca5a37bc62243630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/LavenderBush.fbx using Guid(01ae928dff492d24ca5a37bc62243630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635bc7bc4e2f53464eb719d52dffb6dc') in 0.036063 seconds 
-  Import took 0.038990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.193400 seconds.
   path: Assets/Materials/Lavender.mat
   artifactKey: Guid(d6a11e7b41d1ccb40a2d7938bfedde59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Lavender.mat using Guid(d6a11e7b41d1ccb40a2d7938bfedde59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0d5e563f4eb07546df46957e5c9cd6') in 0.012690 seconds 
-  Import took 0.015689 seconds .
+Start importing Assets/Materials/Lavender.mat using Guid(d6a11e7b41d1ccb40a2d7938bfedde59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500823a6db30dccef8167eff213cffa5') in 0.267796 seconds 
+  Import took 0.270508 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 757.001068 seconds.
-  path: Assets/Textures/Lavender
-  artifactKey: Guid(cc82a97e1c78f2749a00cb512fabb7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Lavender using Guid(cc82a97e1c78f2749a00cb512fabb7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d940cfb954369d59b597205a08e3c9') in 0.001929 seconds 
-  Import took 0.005389 seconds .
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.99 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.2 MB.
+System memory in use after: 59.3 MB.
 
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2367.
+Total: 3.076400 ms (FindLiveObjects: 0.194400 ms CreateObjectMapping: 0.063000 ms MarkObjects: 2.777400 ms  DeleteObjects: 0.041000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.648773 seconds.
-  path: Assets/Textures/Lavender/LavenderNormalMap.png
-  artifactKey: Guid(7eaf96888d7fa884f8563e75b30b117a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Lavender/LavenderNormalMap.png using Guid(7eaf96888d7fa884f8563e75b30b117a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3586af329abdf4050bba02982ee479a') in 0.064348 seconds 
-  Import took 0.067940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.888039 seconds.
-  path: Assets/Textures/Lavender/LavenderNormalMap.png
-  artifactKey: Guid(7eaf96888d7fa884f8563e75b30b117a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Lavender/LavenderNormalMap.png using Guid(7eaf96888d7fa884f8563e75b30b117a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060ba9c37f5af35c7b48276fa284c871') in 0.078406 seconds 
-  Import took 0.081845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 324.670497 seconds.
-  path: Assets/Textures/Lavender/LavenderRoughness.png
-  artifactKey: Guid(c331f4e7d62fc3540b21fa0a5900485f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Lavender/LavenderRoughness.png using Guid(c331f4e7d62fc3540b21fa0a5900485f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b0008af7ba5acf363612b059974c46') in 0.063396 seconds 
-  Import took 0.066713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.562753 seconds.
-  path: Assets/Textures/Lavender/LavenderRoughness.png
-  artifactKey: Guid(c331f4e7d62fc3540b21fa0a5900485f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Lavender/LavenderRoughness.png using Guid(c331f4e7d62fc3540b21fa0a5900485f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510644a4a56e58e678321d5a5b5fb831') in 0.053160 seconds 
-  Import took 0.056493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.572069 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconrepository.png
-  artifactKey: Guid(ed64f3a17f2ede646be21ed6edc9161a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconrepository.png using Guid(ed64f3a17f2ede646be21ed6edc9161a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34ac1c214f5160a38e1c7baa8a4e7e2') in 0.029187 seconds 
-  Import took 0.032353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/loading.png
-  artifactKey: Guid(c6b1bcaa3f4767141acd747384dbb276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/loading.png using Guid(c6b1bcaa3f4767141acd747384dbb276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b9d2fbec8b64ace896cbb7d01df4da') in 0.015439 seconds 
-  Import took 0.018290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignored.png
-  artifactKey: Guid(595bc97bc8e1e0b46bd4c2148ba3723a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignored.png using Guid(595bc97bc8e1e0b46bd4c2148ba3723a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18130578a4f453fbe10c353be720cb22') in 0.021774 seconds 
-  Import took 0.024785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/loading-dark.png
-  artifactKey: Guid(ddc4c89f94d2d994c8d7275e3929ff60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/loading-dark.png using Guid(ddc4c89f94d2d994c8d7275e3929ff60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84944717b4d0cceb4d60a587494ef83f') in 0.015358 seconds 
-  Import took 0.018293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/loading-dark@2x.png
-  artifactKey: Guid(d021820613d286f48915c2de657245d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/loading-dark@2x.png using Guid(d021820613d286f48915c2de657245d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd747d9cfae4231c469a7fc8c7f9d53f1') in 0.014650 seconds 
-  Import took 0.017847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/loading-light.png
-  artifactKey: Guid(77502b03a9bd59440840caed1248d860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/loading-light.png using Guid(77502b03a9bd59440840caed1248d860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefd9976843d9905d51d4f0a6df27699') in 0.014296 seconds 
-  Import took 0.017498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/loading-dark@2x.png
-  artifactKey: Guid(d021820613d286f48915c2de657245d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/loading-dark@2x.png using Guid(d021820613d286f48915c2de657245d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd747d9cfae4231c469a7fc8c7f9d53f1') in 0.005276 seconds 
-  Import took 0.008132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009343 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/loading-light.png
-  artifactKey: Guid(77502b03a9bd59440840caed1248d860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/loading-light.png using Guid(77502b03a9bd59440840caed1248d860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefd9976843d9905d51d4f0a6df27699') in 0.013471 seconds 
-  Import took 0.016309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 150.756211 seconds.
+  Time since last request: 5.830505 seconds.
   path: Assets/Prefabs/plants/LavenderBush.prefab
   artifactKey: Guid(750ea9ac22ff3734a964d82d57c1ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/plants/LavenderBush.prefab using Guid(750ea9ac22ff3734a964d82d57c1ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b33efd2090d22fc90e47f6b7d4b298b') in 0.010848 seconds 
-  Import took 0.014142 seconds .
+Start importing Assets/Prefabs/plants/LavenderBush.prefab using Guid(750ea9ac22ff3734a964d82d57c1ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56577478da646fb1df970b074b50f10d') in 0.126577 seconds 
+  Import took 0.129580 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.031888 seconds.
+  Time since last request: 3.519109 seconds.
   path: Assets/Prefabs/plants/LavenderBush.prefab
   artifactKey: Guid(750ea9ac22ff3734a964d82d57c1ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/plants/LavenderBush.prefab using Guid(750ea9ac22ff3734a964d82d57c1ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b33efd2090d22fc90e47f6b7d4b298b') in 0.007232 seconds 
-  Import took 0.010127 seconds .
+Start importing Assets/Prefabs/plants/LavenderBush.prefab using Guid(750ea9ac22ff3734a964d82d57c1ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f14a3c58a53dcb5bfd191f0655a69b6') in 0.109854 seconds 
+  Import took 0.112887 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1203.155884 seconds.
-  path: Assets/Models/LavenderBush.fbx
-  artifactKey: Guid(01ae928dff492d24ca5a37bc62243630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/LavenderBush.fbx using Guid(01ae928dff492d24ca5a37bc62243630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2cccd71d63614173a6edc5b6a09be08') in 0.040925 seconds 
-  Import took 0.044586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.393511 seconds.
+  Time since last request: 3.712627 seconds.
   path: Assets/Prefabs/plants/LavenderBush.prefab
   artifactKey: Guid(750ea9ac22ff3734a964d82d57c1ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/plants/LavenderBush.prefab using Guid(750ea9ac22ff3734a964d82d57c1ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552c6450614d74e85bedef05721710d4') in 0.009165 seconds 
-  Import took 0.012387 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.992244 seconds.
-  path: Assets/Prefabs/plants/LavenderBush.prefab
-  artifactKey: Guid(750ea9ac22ff3734a964d82d57c1ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/plants/LavenderBush.prefab using Guid(750ea9ac22ff3734a964d82d57c1ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0086de1d8a1584b4e625d60f26699845') in 0.007824 seconds 
-  Import took 0.010885 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.404251 seconds.
-  path: Assets/Prefabs/plants/LavenderBush.prefab
-  artifactKey: Guid(750ea9ac22ff3734a964d82d57c1ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/plants/LavenderBush.prefab using Guid(750ea9ac22ff3734a964d82d57c1ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc12d1a65cb5edf733173aaeb62fbc1b') in 0.008325 seconds 
-  Import took 0.011798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.673064 seconds.
-  path: Assets/Prefabs/plants/LavenderBush.prefab
-  artifactKey: Guid(750ea9ac22ff3734a964d82d57c1ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/plants/LavenderBush.prefab using Guid(750ea9ac22ff3734a964d82d57c1ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fd616c678514f92fab37710b35079d') in 0.007832 seconds 
-  Import took 0.010791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.603423 seconds.
-  path: Assets/Prefabs/plants/LavenderBush.prefab
-  artifactKey: Guid(750ea9ac22ff3734a964d82d57c1ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/plants/LavenderBush.prefab using Guid(750ea9ac22ff3734a964d82d57c1ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e2bf4ee0782d320872bef76b8bcba3') in 0.008006 seconds 
-  Import took 0.011653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.802258 seconds.
-  path: Assets/Prefabs/plants/LavenderBush.prefab
-  artifactKey: Guid(750ea9ac22ff3734a964d82d57c1ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/plants/LavenderBush.prefab using Guid(750ea9ac22ff3734a964d82d57c1ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d40ff49f49142fb27d1761fc3845575') in 0.007439 seconds 
-  Import took 0.010786 seconds .
+Start importing Assets/Prefabs/plants/LavenderBush.prefab using Guid(750ea9ac22ff3734a964d82d57c1ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3802ab79a1cab55225495cacd444f23f') in 0.108712 seconds 
+  Import took 0.111715 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
